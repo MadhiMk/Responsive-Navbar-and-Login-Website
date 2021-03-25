@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #5dade2;
+}
+
+.signin-form {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  box-shadow: 0px 0px 4px rgb(164, 153, 224);
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.rightbar,
+.leftbar {
+  display: inline-block;
+}
+
+.rightbar {
+  text-align: center;
+  align-items: center;
+  width: 40%;
+  padding: 20px 20px 20px 0;
+}
+
+.leftbar {
+  width: 60%;
+  padding: 20px 0 20px 20px;
+  vertical-align: top;
+}
+
+.form-cls {
+  padding-top: 20px;
+}
+
+.title-cls {
+  font-weight: bolder;
+  padding: 0 20px 10px 20px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.form-label1 {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.form-label2 {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.label-cls {
+  font-size: 18px;
+}
+
+.logo {
+  width: 380px;
+  height: 300px;
+  padding: 25px 20px 20px 20px;
+}
+
+.user-logo {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.input-cls-menu {
+  text-align: center;
+}
+
+.input-cls {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  width: 80%;
+}
+
+.button-cls {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.social-icons {
+  font-size: 25px;
+  padding: 5px 25px;
+}
+
+.sign-btn {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 140px;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: var(--primary-color);
+  color: #fff;
+  box-shadow: 0 0 2px black;
+}
+
+@media screen and (max-width: 1150px) {
+  .signin-form {
+    overflow: hidden;
+  }
+  .leftbar {
+    display: none;
+  }
+
+  .rightbar {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .signin-form {
+    width: 80%;
+    margin: auto;
+  }
+  .leftbar {
+    display: none;
+  }
+
+  .rightbar {
+    width: 100%;
+    padding: 20px;
+  }
+}
